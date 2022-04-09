@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100;1,300&display=swap');
+
+
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+
+
+body {
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.p{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-header{
+    margin-bottom: 480px;
+}
+
+.left-header img {
+    width: 40px;
+    height: 45px;
+    margin-left: 175px;
+    margin-top: 15px;
+
+}
+
+.mid-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 500px;
+    margin-left: 70px;
+}
+
+.mid-header form {
+    display: flex;
+    width:350px;
+    height: 50px;
+    margin-bottom: 459px;
+    margin-right: 120px;
+
+}
+
+.mid-header input {
+    width: 100%;
+    border: 1px solid #d1d1d1;
+    border-radius: 25px 25px;
+    background-color: rgb(8 8 8 / 3%);
+    padding-left: 25px;
+}
+
+
+
+aside {
+    display: flex;
+    background: #fff;
+    width: 280px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-right: 20px;
+}
+
+
+nav span {
+    margin-left: 15px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+nav a {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    padding: 9px 2.5rem;
+    color: black;
+    width: 60%;
+    margin-left: 150px;
+    margin-bottom: 15px;
+
+ 
+}
+.omar img{
+    width: 50px;
+    height: 50px;
+    border-radius: 70px;
+   margin-top:20px;
+    margin-right: 170px;
+ 
+}
+nav a:hover {
+    background: #eaeaea;
+    border-radius: 20px;
+    width:60%;
+}
+
+.material-icons{
+   padding-left: 380px;
+   float: right;
+ padding-bottom: 30px;
+  
+}
+.HOME{
+    margin-bottom: 92rem;
+    /* display: flex; */
+    /*justify-content: space-between;
+    align-items: center;*/
+    margin-left: 70px;
+    /*align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;*/
+}
+p{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+button{
+    background-color: rgb(29, 155, 240);
+    color: #ffffff;
+    border: solid ;
+    border-radius:25px ;
+    border-style: hidden;
+    height: 43px;
+    width: 160px ;
+    margin-left: 150px;
+    font: 1.5em sans-serif;
+    font-weight: 700;
+    text-align: center;
+    
+}
+span.fi {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+ }
+ p.imgw{
+     color: #d1d1d1;
+     display: flex;
+      flex-direction: row;
+    ;
+     /* flex-direction: row-reverse; */
+     
+ }
+
+
+
